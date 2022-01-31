@@ -5,9 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="script.js"></script>
-    <link ref="stylesheet" href="style.css" />
 
-    <title>Guess My Number</title>
+    <link rel="stylesheet" href="https://use.typekit.net/ppz5ljb.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>NumGuessr</title>
   </head>
-  <body></body>
+  <body>
+    <main class="content-container">
+      <header class="header">
+        <nav class="main-nav">
+          <button class="btn play-again-btn">Play Again!</button>
+          <button class="btn"><span class="rules-btn">Rules</span></button>
+        </nav>
+        <h1 class="heading">NumGuessr...</h1>
+        <p class="heading-text">Guess the right number to win!</p>
+      </header>
+
+      <section class="number-section">
+        <div class="number-background"></div>
+        <div class="random-number">?</div>
+      </section>
+
+      <section class="guess-section">
+        <section class="guess">
+          <input type="text" class="guess-input" name="guess-number" />
+          <button class="btn check-btn">Check!</button>
+        </section>
+
+        <div class="status-text">Start guessing...</div>
+
+        <section class="score">
+          <div class="score-title">Your score:</div>
+          <div class="score-text">10</div>
+          <div class="highscore-title">Highscore:</div>
+          <div class="highscore-text">17</div>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
