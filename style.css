@@ -22,8 +22,10 @@ body {
 }
 
 .content-container {
-  height: 80rem;
-  width: 100rem;
+  max-height: 80rem;
+  max-width: 100rem;
+  height: 100%;
+  width: 100%;
   background-color: rgba(230, 230, 230, 0.863);
   border-radius: 7.4rem;
   position: relative;
@@ -88,6 +90,7 @@ body {
   position: relative;
   font-size: 16rem;
   color: #333;
+  text-shadow: 0.3rem 0.3rem #85ffc7;
 }
 
 .number-background {
@@ -98,10 +101,11 @@ body {
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
-  box-shadow: 0.3rem 0.2rem #85ffc7;
+  /* box-shadow: 0.3rem 0.2rem #85ffc7; */
 }
 
 .guess-section {
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;

@@ -1,0 +1,580 @@
+@media (max-width: 64em) {
+  .content-container {
+    height: 70%;
+    width: 70%;
+  }
+
+  .btn {
+    font-size: 2rem;
+    padding: 2.4rem;
+  }
+
+  .header {
+    margin-bottom: 6rem;
+  }
+
+  .heading {
+    padding-bottom: 0.4rem;
+  }
+
+  .heading {
+    font-size: 5.2rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .heading-text {
+    font-size: 1.2rem;
+    justify-self: center;
+    /* border-bottom: 0.2px solid #39393a; */
+  }
+
+  .random-number {
+    position: relative;
+    font-size: 16rem;
+    color: #333;
+    text-shadow: 0.3rem 0.3rem #85ffc7;
+  }
+
+  .number-background {
+    background-color: transparent;
+    border: 0.2rem solid #333;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    /* box-shadow: 0.3rem 0.2rem #85ffc7; */
+  }
+
+  .number-section {
+    margin-bottom: 1.6rem;
+  }
+
+  .score {
+    padding: 4.4rem;
+  }
+
+  .guess {
+    padding: 4.4rem;
+  }
+
+  .guess-input {
+    height: 6rem;
+    width: 6rem;
+    font-size: 3rem;
+  }
+
+  .status-text {
+    font-size: 2.4rem;
+  }
+  .score-title {
+    font-size: 2rem;
+  }
+  .highscore-title {
+    font-size: 2rem;
+  }
+  .score-text {
+    font-size: 2rem;
+  }
+
+  .highscore-text {
+    font-size: 2rem;
+  }
+
+  .score-text::after {
+    height: 5rem;
+    width: 5rem;
+  }
+  .highscore-text::after {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+@media (max-height: 52em) {
+  .content-container {
+    height: 70%;
+    width: 70%;
+  }
+
+  .btn {
+    font-size: 2rem;
+    padding: 2.4rem;
+  }
+
+  .header {
+    margin-bottom: 2.4rem;
+  }
+
+  .heading {
+    padding-bottom: 0.4rem;
+  }
+
+  .heading {
+    font-size: 4.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .heading-text {
+    font-size: 1.2rem;
+    justify-self: center;
+    /* border-bottom: 0.2px solid #39393a; */
+  }
+
+  .random-number {
+    position: relative;
+    font-size: 10rem;
+    color: #333;
+    text-shadow: 0.3rem 0.3rem #85ffc7;
+  }
+
+  .number-background {
+    background-color: transparent;
+    border: 0.2rem solid #333;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    /* box-shadow: 0.3rem 0.2rem #85ffc7; */
+  }
+
+  .score {
+    padding: 0;
+  }
+
+  .guess {
+    padding: 0;
+  }
+
+  .guess-input {
+    height: 5rem;
+    width: 5rem;
+    font-size: 2.4rem;
+  }
+
+  .status-text {
+    font-size: 2rem;
+  }
+  .score-title {
+    font-size: 1.8rem;
+  }
+  .highscore-title {
+    font-size: 1.8rem;
+  }
+  .score-text {
+    font-size: 1.8rem;
+  }
+
+  .highscore-text {
+    font-size: 1.8rem;
+  }
+
+  .score-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+  .highscore-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media (max-height: 50em) {
+  .content-container {
+    height: 70%;
+    width: 70%;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    padding: 2.4rem;
+  }
+
+  .header {
+    margin-bottom: 2.4rem;
+  }
+
+  .heading {
+    padding-bottom: 0.4rem;
+  }
+
+  .heading {
+    font-size: 4.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .heading-text {
+    font-size: 1.2rem;
+    justify-self: center;
+    /* border-bottom: 0.2px solid #39393a; */
+  }
+
+  .main-nav {
+    margin: 2.4rem 3.2rem 0 3.2rem;
+  }
+
+  .random-number {
+    position: relative;
+    font-size: 8.6rem;
+    color: #333;
+    text-shadow: 0.3rem 0.3rem #85ffc7;
+  }
+
+  .number-background {
+    background-color: transparent;
+    border: 0.2rem solid #333;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    /* box-shadow: 0.3rem 0.2rem #85ffc7; */
+  }
+
+  .score {
+    padding: 0;
+  }
+
+  .guess {
+    padding: 0;
+  }
+
+  .guess-input {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .status-text {
+    font-size: 2rem;
+  }
+  .score-title {
+    font-size: 1.8rem;
+  }
+  .highscore-title {
+    font-size: 1.8rem;
+  }
+  .score-text {
+    font-size: 1.8rem;
+  }
+
+  .highscore-text {
+    font-size: 1.8rem;
+  }
+
+  .score-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+  .highscore-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media (max-width: 52em) {
+  .content-container {
+    height: 70%;
+    width: 70%;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    padding: 2.4rem;
+  }
+
+  .header {
+    margin-bottom: 2.4rem;
+  }
+
+  .heading {
+    padding-bottom: 0.4rem;
+  }
+
+  .heading {
+    font-size: 4.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .heading-text {
+    font-size: 1.2rem;
+    justify-self: center;
+    /* border-bottom: 0.2px solid #39393a; */
+  }
+
+  .main-nav {
+    margin: 2.4rem 3.2rem 0 3.2rem;
+  }
+
+  .random-number {
+    position: relative;
+    font-size: 8.6rem;
+    color: #333;
+    text-shadow: 0.3rem 0.3rem #85ffc7;
+  }
+
+  .number-background {
+    background-color: transparent;
+    border: 0.2rem solid #333;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    /* box-shadow: 0.3rem 0.2rem #85ffc7; */
+  }
+
+  .score {
+    padding: 0;
+  }
+
+  .guess {
+    padding: 0;
+  }
+
+  .guess-input {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .status-text {
+    font-size: 2rem;
+  }
+  .score-title {
+    font-size: 1.8rem;
+  }
+  .highscore-title {
+    font-size: 1.8rem;
+  }
+  .score-text {
+    font-size: 1.8rem;
+  }
+
+  .highscore-text {
+    font-size: 1.8rem;
+  }
+
+  .score-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+  .highscore-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .content-container {
+    height: 70%;
+    width: 70%;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    padding: 1.6rem;
+  }
+
+  .header {
+    margin-bottom: 2.4rem;
+  }
+
+  .heading {
+    padding-bottom: 0.4rem;
+  }
+
+  .heading {
+    font-size: 4.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .heading-text {
+    font-size: 1.2rem;
+    justify-self: center;
+    /* border-bottom: 0.2px solid #39393a; */
+  }
+
+  .main-nav {
+    margin: 2.4rem 3.2rem 2.4rem 3.2rem;
+  }
+
+  .number-section {
+    margin-bottom: 1rem;
+  }
+
+  .random-number {
+    position: relative;
+    font-size: 8.6rem;
+    color: #333;
+    text-shadow: 0.3rem 0.3rem #85ffc7;
+  }
+
+  .number-background {
+    background-color: transparent;
+    border: 0.2rem solid #333;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    /* box-shadow: 0.3rem 0.2rem #85ffc7; */
+  }
+
+  .guess-section {
+    padding: 0 1.4rem;
+  }
+
+  .score {
+    padding: 0;
+  }
+
+  .guess {
+    padding: 0;
+  }
+
+  .guess-input {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .status-text {
+    font-size: 1.2rem;
+  }
+  .score-title {
+    font-size: 1.2rem;
+  }
+  .highscore-title {
+    font-size: 1.2rem;
+  }
+  .score-text {
+    font-size: 1.2rem;
+  }
+
+  .highscore-text {
+    font-size: 1.2rem;
+  }
+
+  .score-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+  .highscore-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media (max-width: 47em) {
+  .content-container {
+    height: 70%;
+    width: 70%;
+  }
+}
+
+@media (max-width: 29em) {
+  .content-container {
+    height: 70%;
+    width: 70%;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 1.4rem;
+    margin: 0 0 1.4rem 0;
+  }
+
+  .header {
+    margin-bottom: 2.4rem;
+  }
+
+  .heading {
+    font-size: 3.6rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .heading-text {
+    font-size: 1.2rem;
+    justify-self: center;
+    /* border-bottom: 0.2px solid #39393a; */
+  }
+
+  .main-nav {
+    margin: 2.4rem 3.2rem 0 3.2rem;
+  }
+
+  .number-section {
+    padding-bottom: 1rem;
+  }
+
+  .random-number {
+    position: relative;
+    font-size: 6.2rem;
+    color: #333;
+    text-shadow: 0.3rem 0.3rem #85ffc7;
+  }
+
+  .number-background {
+    background-color: transparent;
+    border: 0.2rem solid #333;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    /* box-shadow: 0.3rem 0.2rem #85ffc7; */
+  }
+
+  .score {
+    padding: 0;
+  }
+
+  .guess {
+    padding: 0;
+  }
+
+  .guess-section {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .guess-input {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .status-text {
+    font-size: 1.4rem;
+  }
+  .score-title {
+    font-size: 1rem;
+  }
+  .highscore-title {
+    font-size: rem;
+  }
+  .score-text {
+    font-size: 1rem;
+  }
+
+  .highscore-text {
+    font-size: 1rem;
+  }
+
+  .score-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+  .highscore-text::after {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .score {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    padding: 2.4rem;
+  }
+}
