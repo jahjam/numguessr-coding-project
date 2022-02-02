@@ -84,7 +84,6 @@ const calculateOutcome = function () {
     }...`;
     input.focus();
     input.value = '';
-    return;
   }
 
   if (curScore === 0) {
@@ -94,7 +93,6 @@ const calculateOutcome = function () {
     input.disabled = true;
     input.style.backgroundColor = '#333';
     input.value = '';
-    return;
   }
   return;
 };
