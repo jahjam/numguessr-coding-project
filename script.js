@@ -19,6 +19,11 @@ const closeModal = document.querySelector('.modal-close');
 // Modal
 const rulesModal = document.querySelector('.modal');
 
+// Global Number values
+let randomNumberGen;
+let curScore = 10;
+let highscore = 0;
+
 // Functions
 // Initialize Values
 const init = function () {
@@ -48,6 +53,7 @@ const init = function () {
 // Function to generate random number between 1 and 20
 const generateRandomNumber = function () {
   const num = Math.ceil(Math.random() * 20);
+  console.log(num);
   return num;
 };
 
@@ -55,6 +61,14 @@ const generateRandomNumber = function () {
 const lowerScore = function () {
   curScore--;
   return curScore;
+};
+
+// Function to update highscore
+const highscoreUpdate = function (curScore) {
+  if (curScore > highscore) {
+    highscore = curScore;
+    highscoreText.textContent = curScore;
+  }
 };
 
 // Function to calculate outcome of check
@@ -70,7 +84,7 @@ const calculateOutcome = function () {
     checkButton.disabled = true;
     randomNumber.textContent = randomNumberGen;
     statusText.innerHTML = `Yipee! <br/> ${input.value} is right!`;
-    highscoreText.textContent = curScore;
+    highscoreUpdate(curScore);
     input.value = '';
     return;
   }
@@ -103,10 +117,6 @@ const toggleModal = function () {
     ? rulesModal.classList.remove('hidden')
     : rulesModal.classList.add('hidden');
 };
-
-// Number values
-let randomNumberGen;
-let curScore = 10;
 
 // Event listeners
 window.addEventListener('load', init);
