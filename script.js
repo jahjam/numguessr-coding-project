@@ -40,6 +40,9 @@ const init = function () {
 
   // Reset Score
   curScore = 10;
+
+  // New Number
+  randomNumberGen = generateRandomNumber();
 };
 
 // Function to generate random number between 1 and 20
@@ -56,7 +59,7 @@ const lowerScore = function () {
 
 // Function to calculate outcome of check
 const calculateOutcome = function () {
-  if (input.value === '' || +input.value === 0) {
+  if (input.value === '' || +input.value === 0 || +input.value > 20) {
     statusText.textContent = `Please input a number between 0 and 20`;
     input.focus();
     input.value = '';
@@ -104,7 +107,7 @@ const toggleModal = function () {
 };
 
 // Number values
-const randomNumberGen = generateRandomNumber();
+let randomNumberGen;
 let curScore = 10;
 
 // Event listeners
