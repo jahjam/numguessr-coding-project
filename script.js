@@ -80,6 +80,7 @@ const calculateOutcome = function () {
       +input.value < randomNumberGen ? 'low' : 'high'
     }...`;
     input.focus();
+    input.value = '';
     return;
   }
 
