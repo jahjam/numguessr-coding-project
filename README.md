@@ -8,8 +8,8 @@ To begin I drew out some rudimentary designs on paper, then marked-up the HTML, 
 
 From this project, I've taken that I need to read more about closures, as the bug that took me the longest to figure out was one that resulted in the input value being returned as an empty string when the init() function was called after the 'play again' button was clicked, ultimately, breaking the game. I think this was because I had placed the 'check' button callback function within the init function, which was called each time the 'play again' button was clicked - though this is a guess, as I'm still not 100% sure, hence needing more research.
 
-If I think of anymore info or self-reflection, I will add it here, however, until then, I'll move onto another project. First, I just need to come up with one... a game of naughts and crosses anyone?
+If I think of anymore info or self-reflection, I will add it here, however, until then, I'll move onto another project. First, I just need to come up with one...
 
 You can find NumGuessr [HERE](https://numguessr.netlify.app/)
 
-P.S. If you really want to win the secret number is in the console!
+P.S. If you really want to win, the secret number is in the console!
